@@ -1,0 +1,20 @@
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/sensor.cpp:3[m[K:
+[01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/sensor.cpp:[m[K In member function ‘[01m[Kvoid LidarProcesser::topic_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/sensor.cpp:30:124:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kstd::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = float; _Alloc = std::allocator<float>; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   30 | ard: '%f', '%f'", msg->ranges[0], msg->ranges[[01;31m[Kmsg->ranges.size[m[K-1]);
+      |                                               [01;31m[K~~~~~~~~~~~~^~~~[m[K
+
+gmake[2]: *** [CMakeFiles/lidar_sensor.dir/build.make:76: CMakeFiles/lidar_sensor.dir/src/sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/lidar_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

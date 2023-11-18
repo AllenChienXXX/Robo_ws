@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/ament_index/resource_index/package_run_dependencies/basic_navigation
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/ament_index/resource_index/parent_prefix_path/basic_navigation
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/environment/path.sh
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/environment/path.dsv
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/local_setup.bash
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/local_setup.sh
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/local_setup.zsh
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/local_setup.dsv
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/package.dsv
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/ament_index/resource_index/packages/basic_navigation
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/cmake/basic_navigationConfig.cmake
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/cmake/basic_navigationConfig-version.cmake
+-- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/package.xml

@@ -1,0 +1,7 @@
+[01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/Float64.hpp: No such file or directory
+    2 | #include [01;31m[K"std_msgs/msg/Float64.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/wheel.dir/build.make:76: CMakeFiles/wheel.dir/src/wheel_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wheel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

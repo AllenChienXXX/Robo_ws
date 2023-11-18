@@ -1,0 +1,36 @@
+[0.046s] Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/Documents/RoS/robo_ws/build/test -- -j8 -l8
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target lidar_sensor[0m
+[0.075s] [ 16%] [32mBuilding CXX object CMakeFiles/lidar_sensor.dir/src/sensor.cpp.o[0m
+[0.076s] [ 50%] Built target wheel
+[0.082s] [ 83%] Built target imu_sensor
+[1.080s] [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/sensor.cpp:[m[K In member function ‘[01m[Kvoid LidarProcesser::process(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.080s] [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/sensor.cpp:39:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktwist_msg[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.080s]    39 |         auto [01;35m[Ktwist_msg[m[K = geometry_msgs::msg::Twist();
+[1.080s]       |              [01;35m[K^~~~~~~~~[m[K
+[2.929s] [100%] [32m[1mLinking CXX executable lidar_sensor[0m
+[3.154s] [100%] Built target lidar_sensor
+[3.162s] Invoked command in '/home/ubuntu/Documents/RoS/robo_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/Documents/RoS/robo_ws/build/test -- -j8 -l8
+[3.185s] Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/ubuntu/Documents/RoS/robo_ws/build/test
+[3.190s] -- Install configuration: ""
+[3.190s] -- Execute custom install script
+[3.191s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/lib/test/wheel
+[3.191s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/lib/test/lidar_sensor
+[3.191s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/lib/test/imu_sensor
+[3.191s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test//launch/navigate_launch.py
+[3.191s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test//launch/sensor_launch.py
+[3.192s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[3.192s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[3.192s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/environment/ament_prefix_path.sh
+[3.192s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/environment/ament_prefix_path.dsv
+[3.192s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/environment/path.sh
+[3.192s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/environment/path.dsv
+[3.192s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/local_setup.bash
+[3.192s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/local_setup.sh
+[3.193s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/local_setup.zsh
+[3.193s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/local_setup.dsv
+[3.193s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/package.dsv
+[3.196s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/ament_index/resource_index/packages/test
+[3.196s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/cmake/testConfig.cmake
+[3.197s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/cmake/testConfig-version.cmake
+[3.197s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/package.xml
+[3.198s] Invoked command in '/home/ubuntu/Documents/RoS/robo_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/ubuntu/Documents/RoS/robo_ws/build/test

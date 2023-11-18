@@ -1,0 +1,41 @@
+[01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kint index[m[K’ redeclared as different kind of entity
+   12 | int [01;31m[Kindex[m[K = 0;
+      |     [01;31m[K^~~~~[m[K
+In file included from [01m[K/usr/include/string.h:462[m[K,
+                 from [01m[K/opt/ros/iron/include/rcutils/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/iron/include/rcutils/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rmw/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rcl/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rcl/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rcl/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rcl/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rcl/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:6[m[K:
+[01m[K/usr/include/strings.h:50:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst char* index(const char*, int)[m[K’
+   50 | extern const char *[01;36m[Kindex[m[K (const char *__s, int __c)
+      |                    [01;36m[K^~~~~[m[K
+[01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:[m[K In member function ‘[01m[Kvoid WheelControlPublisher::publishMessage()[m[K’:
+[01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:30:41:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [5][<unresolved overloaded function type>][m[K’ for array subscript
+   30 |         twist_msg.linear.x = linear_list[01;31m[K[[m[Kindex]; // Linear velocity (m/s)
+      |                                         [01;31m[K^[m[K
+[01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:31:43:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [5][<unresolved overloaded function type>][m[K’ for array subscript
+   31 |         twist_msg.angular.z = angular_list[01;31m[K[[m[Kindex]; // Angular velocity (rad/s)
+      |                                           [01;31m[K^[m[K
+[01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:33:80:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [5][<unresolved overloaded function type>][m[K’ for array subscript
+   33 | _msg = "Publishing: linear: "+std::to_string(linear_list[01;31m[K[[m[Kindex])+",angular: " + std::to_string(angular_list[index]);
+      |                                                         [01;31m[K^[m[K
+
+[01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:33:131:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [5][<unresolved overloaded function type>][m[K’ for array subscript
+   33 | ar_list[index])+",angular: " + std::to_string(angular_list[01;31m[K[[m[Kindex]);
+      |                                                           [01;31m[K^[m[K
+
+[01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:34:14:[m[K [01;31m[Kerror: [m[Kno post-increment operator for type
+   34 |         index[01;31m[K++[m[K;
+      |              [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/wheel.dir/build.make:76: CMakeFiles/wheel.dir/src/wheel_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wheel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

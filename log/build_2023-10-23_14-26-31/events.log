@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000355] (-) JobUnselected: {'identifier': 'basic_navigation'}
+[0.000460] (-) JobUnselected: {'identifier': 'urdf_example'}
+[0.000539] (-) EventReactorShutdown: {}

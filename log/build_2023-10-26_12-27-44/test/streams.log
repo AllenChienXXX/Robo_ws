@@ -1,0 +1,10 @@
+[0.023s] Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/build/test': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/Documents/RoS/robo_ws/build/test -- -j8 -l8
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/wheel.dir/src/wheel_pub.cpp.o[0m
+[0.201s] [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/Float64.hpp: No such file or directory
+[0.201s]     2 | #include [01;31m[K"std_msgs/msg/Float64.hpp"[m[K
+[0.201s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.201s] compilation terminated.
+[0.202s] gmake[2]: *** [CMakeFiles/wheel.dir/build.make:76: CMakeFiles/wheel.dir/src/wheel_pub.cpp.o] Error 1
+[0.202s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wheel.dir/all] Error 2
+[0.202s] gmake: *** [Makefile:146: all] Error 2
+[0.203s] Invoked command in '/home/ubuntu/Documents/RoS/robo_ws/build/test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/Documents/RoS/robo_ws/build/test -- -j8 -l8

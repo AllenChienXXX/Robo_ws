@@ -1,0 +1,12 @@
+/home/ubuntu/Documents/RoS/robo_ws/build/test/CMakeFiles/uninstall.dir
+/home/ubuntu/Documents/RoS/robo_ws/build/test/CMakeFiles/test_uninstall.dir
+/home/ubuntu/Documents/RoS/robo_ws/build/test/CMakeFiles/wheel.dir
+/home/ubuntu/Documents/RoS/robo_ws/build/test/CMakeFiles/lidar_sensor.dir
+/home/ubuntu/Documents/RoS/robo_ws/build/test/CMakeFiles/imu_sensor.dir
+/home/ubuntu/Documents/RoS/robo_ws/build/test/CMakeFiles/test.dir
+/home/ubuntu/Documents/RoS/robo_ws/build/test/CMakeFiles/edit_cache.dir
+/home/ubuntu/Documents/RoS/robo_ws/build/test/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Documents/RoS/robo_ws/build/test/CMakeFiles/list_install_components.dir
+/home/ubuntu/Documents/RoS/robo_ws/build/test/CMakeFiles/install.dir
+/home/ubuntu/Documents/RoS/robo_ws/build/test/CMakeFiles/install/local.dir
+/home/ubuntu/Documents/RoS/robo_ws/build/test/CMakeFiles/install/strip.dir

@@ -1,0 +1,37 @@
+[0.048s] Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/Documents/RoS/robo_ws/build/test -- -j8 -l8
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target wheel[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/wheel.dir/src/wheel_pub.cpp.o[0m
+[1.025s] [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kint index[m[K’ redeclared as different kind of entity
+[1.025s]    12 | int [01;31m[Kindex[m[K = 0;
+[1.025s]       |     [01;31m[K^~~~~[m[K
+[1.025s] In file included from [01m[K/usr/include/string.h:462[m[K,
+[1.025s]                  from [01m[K/opt/ros/iron/include/rcutils/rcutils/error_handling.h:34[m[K,
+[1.025s]                  from [01m[K/opt/ros/iron/include/rcutils/rcutils/logging.h:25[m[K,
+[1.025s]                  from [01m[K/opt/ros/iron/include/rmw/rmw/types.h:28[m[K,
+[1.026s]                  from [01m[K/opt/ros/iron/include/rcl/rcl/types.h:20[m[K,
+[1.026s]                  from [01m[K/opt/ros/iron/include/rcl/rcl/log_level.h:22[m[K,
+[1.026s]                  from [01m[K/opt/ros/iron/include/rcl/rcl/arguments.h:21[m[K,
+[1.026s]                  from [01m[K/opt/ros/iron/include/rcl/rcl/context.h:28[m[K,
+[1.026s]                  from [01m[K/opt/ros/iron/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.026s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.026s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.026s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.027s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[1.027s]                  from [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:6[m[K:
+[1.027s] [01m[K/usr/include/strings.h:50:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst char* index(const char*, int)[m[K’
+[1.027s]    50 | extern const char *[01;36m[Kindex[m[K (const char *__s, int __c)
+[1.027s]       |                    [01;36m[K^~~~~[m[K
+[1.030s] [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:[m[K In member function ‘[01m[Kvoid WheelControlPublisher::publishMessage()[m[K’:
+[1.030s] [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:30:41:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [5][<unresolved overloaded function type>][m[K’ for array subscript
+[1.031s]    30 |         twist_msg.linear.x = linear_list[01;31m[K[[m[Kindex]; // Linear velocity (m/s)
+[1.031s]       |                                         [01;31m[K^[m[K
+[1.031s] [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:31:43:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [5][<unresolved overloaded function type>][m[K’ for array subscript
+[1.031s]    31 |         twist_msg.angular.z = angular_list[01;31m[K[[m[Kindex]; // Angular velocity (rad/s)
+[1.031s]       |                                           [01;31m[K^[m[K
+[1.031s] [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:34:14:[m[K [01;31m[Kerror: [m[Kno post-increment operator for type
+[1.031s]    34 |         index[01;31m[K++[m[K;
+[1.031s]       |              [01;31m[K^~[m[K
+[1.462s] gmake[2]: *** [CMakeFiles/wheel.dir/build.make:76: CMakeFiles/wheel.dir/src/wheel_pub.cpp.o] Error 1
+[1.462s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wheel.dir/all] Error 2
+[1.462s] gmake: *** [Makefile:146: all] Error 2
+[1.463s] Invoked command in '/home/ubuntu/Documents/RoS/robo_ws/build/test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/Documents/RoS/robo_ws/build/test -- -j8 -l8

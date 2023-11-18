@@ -1,0 +1,29 @@
+[0.050s] Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/Documents/RoS/robo_ws/build/test -- -j8 -l8
+[0.078s] [ 25%] [32mBuilding CXX object CMakeFiles/wheel.dir/src/wheel_pub.cpp.o[0m
+[0.087s] [ 75%] Built target sensor
+[1.826s] [100%] [32m[1mLinking CXX executable wheel[0m
+[1.970s] [100%] Built target wheel
+[1.976s] Invoked command in '/home/ubuntu/Documents/RoS/robo_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/Documents/RoS/robo_ws/build/test -- -j8 -l8
+[1.998s] Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/ubuntu/Documents/RoS/robo_ws/build/test
+[2.002s] -- Install configuration: ""
+[2.003s] -- Execute custom install script
+[2.003s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/lib/test/wheel
+[2.003s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/lib/test/sensor
+[2.003s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test//launch/navigate_launch.py
+[2.003s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test//launch/sensor_launch.py
+[2.004s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[2.004s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[2.004s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/environment/ament_prefix_path.sh
+[2.004s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/environment/ament_prefix_path.dsv
+[2.004s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/environment/path.sh
+[2.004s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/environment/path.dsv
+[2.004s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/local_setup.bash
+[2.005s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/local_setup.sh
+[2.005s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/local_setup.zsh
+[2.005s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/local_setup.dsv
+[2.005s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/package.dsv
+[2.008s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/ament_index/resource_index/packages/test
+[2.008s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/cmake/testConfig.cmake
+[2.008s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/cmake/testConfig-version.cmake
+[2.008s] -- Up-to-date symlink: /home/ubuntu/Documents/RoS/robo_ws/install/test/share/test/package.xml
+[2.009s] Invoked command in '/home/ubuntu/Documents/RoS/robo_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/ubuntu/Documents/RoS/robo_ws/build/test

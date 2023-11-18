@@ -1,0 +1,1 @@
+/home/ubuntu/Documents/RoS/robo_ws/build/basic_navigation/ament_cmake_environment_hooks/local_setup.sh

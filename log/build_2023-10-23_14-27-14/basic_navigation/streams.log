@@ -1,0 +1,20 @@
+[0.050s] Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/build/basic_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/Documents/RoS/robo_ws/build/basic_navigation -- -j8 -l8
+[0.064s] Invoked command in '/home/ubuntu/Documents/RoS/robo_ws/build/basic_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/Documents/RoS/robo_ws/build/basic_navigation -- -j8 -l8
+[0.076s] Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/build/basic_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/ubuntu/Documents/RoS/robo_ws/build/basic_navigation
+[0.083s] -- Install configuration: ""
+[0.083s] -- Execute custom install script
+[0.084s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/ament_index/resource_index/package_run_dependencies/basic_navigation
+[0.093s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/ament_index/resource_index/parent_prefix_path/basic_navigation
+[0.100s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/environment/ament_prefix_path.sh
+[0.108s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/environment/ament_prefix_path.dsv
+[0.115s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/environment/path.sh
+[0.118s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/environment/path.dsv
+[0.124s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/local_setup.bash
+[0.129s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/local_setup.sh
+[0.133s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/local_setup.zsh
+[0.136s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/local_setup.dsv
+[0.139s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/package.dsv
+[0.143s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/ament_index/resource_index/packages/basic_navigation
+[0.147s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/cmake/basic_navigationConfig.cmake
+[0.151s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/cmake/basic_navigationConfig-version.cmake
+[0.155s] -- Symlinking: /home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation/share/basic_navigation/package.xml

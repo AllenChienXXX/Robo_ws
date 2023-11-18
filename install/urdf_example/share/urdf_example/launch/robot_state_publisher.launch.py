@@ -1,0 +1,1 @@
+/home/ubuntu/Documents/RoS/robo_ws/src/urdf_example-main/launch/robot_state_publisher.launch.py

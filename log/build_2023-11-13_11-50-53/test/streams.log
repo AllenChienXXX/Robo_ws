@@ -1,0 +1,41 @@
+[0.048s] Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/Documents/RoS/robo_ws/build/test -- -j8 -l8
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target imu_sensor[0m
+[0.072s] [ 33%] Built target sensor
+[0.078s] [ 66%] Built target wheel
+[0.080s] [ 83%] [32mBuilding CXX object CMakeFiles/imu_sensor.dir/src/imu_sensor.cpp.o[0m
+[1.066s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.066s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[1.066s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.066s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.066s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.066s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.066s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.066s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.066s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.066s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.066s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[1.066s]                  from [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/imu_sensor.cpp:3[m[K:
+[1.066s] [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/imu_sensor.cpp:[m[K In member function ‘[01m[Kvoid IMUProcesser::topic_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.066s] [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/imu_sensor.cpp:29:46:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.066s]    29 |         RCLCPP_INFO(this->get_logger(), [01;31m[Kmsg->angular_velocity[m[K);
+[1.066s]       |                                         [01;31m[K~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.066s]       |                                              [01;31m[K|[m[K
+[1.066s]       |                                              [01;31m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type {aka geometry_msgs::msg::Vector3_<std::allocator<void> >}[m[K
+[1.067s] In file included from [01m[K/opt/ros/iron/include/rmw/rmw/types.h:28[m[K,
+[1.067s]                  from [01m[K/opt/ros/iron/include/rcl/rcl/types.h:20[m[K,
+[1.067s]                  from [01m[K/opt/ros/iron/include/rcl/rcl/log_level.h:22[m[K,
+[1.067s]                  from [01m[K/opt/ros/iron/include/rcl/rcl/arguments.h:21[m[K,
+[1.067s]                  from [01m[K/opt/ros/iron/include/rcl/rcl/context.h:28[m[K,
+[1.067s]                  from [01m[K/opt/ros/iron/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.067s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[1.067s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.067s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.067s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[1.067s]                  from [01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/imu_sensor.cpp:3[m[K:
+[1.067s] [01m[K/opt/ros/iron/include/rcutils/rcutils/logging.h:473:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log_internal(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[1.067s]   473 |   [01;36m[Kconst char * format[m[K,
+[1.067s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[1.853s] gmake[2]: *** [CMakeFiles/imu_sensor.dir/build.make:76: CMakeFiles/imu_sensor.dir/src/imu_sensor.cpp.o] Error 1
+[1.853s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/imu_sensor.dir/all] Error 2
+[1.853s] gmake: *** [Makefile:146: all] Error 2
+[1.854s] Invoked command in '/home/ubuntu/Documents/RoS/robo_ws/build/test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/Documents/RoS/robo_ws/build/test -- -j8 -l8

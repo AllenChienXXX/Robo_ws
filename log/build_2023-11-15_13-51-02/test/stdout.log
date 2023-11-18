@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_sensor[0m
+[ 33%] Built target wheel
+[ 66%] Built target imu_sensor
+[ 83%] [32mBuilding CXX object CMakeFiles/lidar_sensor.dir/src/sensor.cpp.o[0m

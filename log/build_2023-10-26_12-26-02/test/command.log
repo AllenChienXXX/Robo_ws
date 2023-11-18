@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/build/test': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ubuntu/Documents/RoS/robo_ws/src/test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/RoS/robo_ws/install/test
+Invoked command in '/home/ubuntu/Documents/RoS/robo_ws/build/test' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ubuntu/Documents/RoS/robo_ws/src/test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/RoS/robo_ws/install/test

@@ -1,0 +1,1 @@
+/home/ubuntu/Documents/RoS/robo_ws/src/test/launch/navigate_launch.py

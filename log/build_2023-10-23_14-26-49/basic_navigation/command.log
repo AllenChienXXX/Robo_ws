@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/build/basic_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/ubuntu/Documents/RoS/robo_ws/src/basic_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/RoS/robo_ws/install/basic_navigation

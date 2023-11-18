@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/wheel.dir/src/wheel_pub.cpp.o[0m
+[01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:[m[K In constructor ‘[01m[KWheelControlPublisher::WheelControlPublisher()[m[K’:
+[01m[K/home/ubuntu/Documents/RoS/robo_ws/src/test/src/wheel_pub.cpp:16:13:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   16 |             [01;31m[K100ms[m[K, std::bind(&WheelControlPublisher::publishMessage, this));
+      |             [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/wheel.dir/build.make:76: CMakeFiles/wheel.dir/src/wheel_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wheel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target imu_sensor[0m
+[ 33%] Built target sensor
+[ 66%] Built target wheel
+[ 83%] [32mBuilding CXX object CMakeFiles/imu_sensor.dir/src/imu_sensor.cpp.o[0m
