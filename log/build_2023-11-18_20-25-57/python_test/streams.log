@@ -1,0 +1,43 @@
+[0.466s] Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/src/python_test': PYTHONPATH=/home/ubuntu/Documents/RoS/robo_ws/build/python_test/prefix_override:/home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_test build --build-base /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build install --record /home/ubuntu/Documents/RoS/robo_ws/build/python_test/install.log --single-version-externally-managed
+[0.564s] running egg_info
+[0.564s] creating ../../build/python_test/python_test.egg-info
+[0.564s] writing ../../build/python_test/python_test.egg-info/PKG-INFO
+[0.564s] writing dependency_links to ../../build/python_test/python_test.egg-info/dependency_links.txt
+[0.564s] writing entry points to ../../build/python_test/python_test.egg-info/entry_points.txt
+[0.564s] writing requirements to ../../build/python_test/python_test.egg-info/requires.txt
+[0.564s] writing top-level names to ../../build/python_test/python_test.egg-info/top_level.txt
+[0.564s] writing manifest file '../../build/python_test/python_test.egg-info/SOURCES.txt'
+[0.565s] reading manifest file '../../build/python_test/python_test.egg-info/SOURCES.txt'
+[0.565s] writing manifest file '../../build/python_test/python_test.egg-info/SOURCES.txt'
+[0.565s] running build
+[0.566s] running build_py
+[0.566s] creating /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build
+[0.566s] creating /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib
+[0.566s] creating /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test
+[0.566s] copying python_test/sensor.py -> /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test
+[0.566s] copying python_test/__init__.py -> /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test
+[0.566s] copying python_test/wheel_pub.py -> /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test
+[0.566s] running install
+[0.567s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.567s]   warnings.warn(
+[0.567s] running install_lib
+[0.568s] creating /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test
+[0.568s] copying /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test/sensor.py -> /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test
+[0.568s] copying /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test/__init__.py -> /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test
+[0.568s] copying /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test/wheel_pub.py -> /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test
+[0.568s] byte-compiling /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test/sensor.py to sensor.cpython-310.pyc
+[0.569s] byte-compiling /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test/__init__.py to __init__.cpython-310.pyc
+[0.569s] byte-compiling /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test/wheel_pub.py to wheel_pub.cpython-310.pyc
+[0.569s] running install_data
+[0.569s] creating /home/ubuntu/Documents/RoS/robo_ws/install/python_test/share/ament_index
+[0.569s] creating /home/ubuntu/Documents/RoS/robo_ws/install/python_test/share/ament_index/resource_index
+[0.569s] creating /home/ubuntu/Documents/RoS/robo_ws/install/python_test/share/ament_index/resource_index/packages
+[0.569s] copying resource/python_test -> /home/ubuntu/Documents/RoS/robo_ws/install/python_test/share/ament_index/resource_index/packages
+[0.569s] copying package.xml -> /home/ubuntu/Documents/RoS/robo_ws/install/python_test/share/python_test
+[0.570s] running install_egg_info
+[0.571s] Copying ../../build/python_test/python_test.egg-info to /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test-0.0.0-py3.10.egg-info
+[0.571s] running install_scripts
+[0.580s] Installing sensor script to /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python_test
+[0.580s] Installing wheel script to /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python_test
+[0.580s] writing list of installed files to '/home/ubuntu/Documents/RoS/robo_ws/build/python_test/install.log'
+[0.598s] Invoked command in '/home/ubuntu/Documents/RoS/robo_ws/src/python_test' returned '0': PYTHONPATH=/home/ubuntu/Documents/RoS/robo_ws/build/python_test/prefix_override:/home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_test build --build-base /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build install --record /home/ubuntu/Documents/RoS/robo_ws/build/python_test/install.log --single-version-externally-managed

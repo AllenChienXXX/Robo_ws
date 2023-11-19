@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/python_test/python_test.egg-info
+writing ../../build/python_test/python_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/python_test/python_test.egg-info/dependency_links.txt
+writing entry points to ../../build/python_test/python_test.egg-info/entry_points.txt
+writing requirements to ../../build/python_test/python_test.egg-info/requires.txt
+writing top-level names to ../../build/python_test/python_test.egg-info/top_level.txt
+writing manifest file '../../build/python_test/python_test.egg-info/SOURCES.txt'
+reading manifest file '../../build/python_test/python_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/python_test/python_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build
+creating /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib
+creating /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test
+copying python_test/sensor.py -> /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test
+copying python_test/__init__.py -> /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test
+copying python_test/wheel_pub.py -> /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test
+running install
+running install_lib
+creating /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test
+copying /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test/sensor.py -> /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test
+copying /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test/__init__.py -> /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test
+copying /home/ubuntu/Documents/RoS/robo_ws/build/python_test/build/lib/python_test/wheel_pub.py -> /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test
+byte-compiling /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test/sensor.py to sensor.cpython-310.pyc
+byte-compiling /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test/wheel_pub.py to wheel_pub.cpython-310.pyc
+running install_data
+creating /home/ubuntu/Documents/RoS/robo_ws/install/python_test/share/ament_index
+creating /home/ubuntu/Documents/RoS/robo_ws/install/python_test/share/ament_index/resource_index
+creating /home/ubuntu/Documents/RoS/robo_ws/install/python_test/share/ament_index/resource_index/packages
+copying resource/python_test -> /home/ubuntu/Documents/RoS/robo_ws/install/python_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/Documents/RoS/robo_ws/install/python_test/share/python_test
+running install_egg_info
+Copying ../../build/python_test/python_test.egg-info to /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python3.10/site-packages/python_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sensor script to /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python_test
+Installing wheel script to /home/ubuntu/Documents/RoS/robo_ws/install/python_test/lib/python_test
+writing list of installed files to '/home/ubuntu/Documents/RoS/robo_ws/build/python_test/install.log'

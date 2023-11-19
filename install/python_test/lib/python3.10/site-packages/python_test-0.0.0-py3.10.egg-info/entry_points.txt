@@ -1,0 +1,4 @@
+[console_scripts]
+sensor = python_test.sensor:main
+wheel = python_test.wheel_pub:main
+
