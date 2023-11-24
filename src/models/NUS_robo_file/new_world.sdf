@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="new_world">
+    <!-- Add any global settings for your world here -->
+
+    <!-- Include the model from another directory -->
+  
+    <include>
+        <uri>
+            model://model.sdf
+        </uri>
+    </include>
+
+
+  </world>
+</sdf>
