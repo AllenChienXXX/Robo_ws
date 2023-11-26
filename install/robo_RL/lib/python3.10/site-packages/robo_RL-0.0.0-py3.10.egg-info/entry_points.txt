@@ -1,0 +1,3 @@
+[console_scripts]
+wheel = robo_RL.wheel_pub:main
+

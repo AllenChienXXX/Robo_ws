@@ -1,0 +1,26 @@
+[0.462s] Invoking command in '/home/ubuntu/Documents/RoS/robo_ws/src/robo_RL': PYTHONPATH=/home/ubuntu/Documents/RoS/robo_ws/build/robo_RL/prefix_override:/home/ubuntu/Documents/RoS/robo_ws/install/robo_RL/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robo_RL build --build-base /home/ubuntu/Documents/RoS/robo_ws/build/robo_RL/build install --record /home/ubuntu/Documents/RoS/robo_ws/build/robo_RL/install.log --single-version-externally-managed
+[0.561s] running egg_info
+[0.561s] writing ../../build/robo_RL/robo_RL.egg-info/PKG-INFO
+[0.561s] writing dependency_links to ../../build/robo_RL/robo_RL.egg-info/dependency_links.txt
+[0.561s] writing entry points to ../../build/robo_RL/robo_RL.egg-info/entry_points.txt
+[0.562s] writing requirements to ../../build/robo_RL/robo_RL.egg-info/requires.txt
+[0.562s] writing top-level names to ../../build/robo_RL/robo_RL.egg-info/top_level.txt
+[0.562s] reading manifest file '../../build/robo_RL/robo_RL.egg-info/SOURCES.txt'
+[0.562s] writing manifest file '../../build/robo_RL/robo_RL.egg-info/SOURCES.txt'
+[0.563s] running build
+[0.563s] running build_py
+[0.563s] copying robo_RL/wheel_pub.py -> /home/ubuntu/Documents/RoS/robo_ws/build/robo_RL/build/lib/robo_RL
+[0.563s] running install
+[0.564s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.564s]   warnings.warn(
+[0.564s] running install_lib
+[0.565s] copying /home/ubuntu/Documents/RoS/robo_ws/build/robo_RL/build/lib/robo_RL/wheel_pub.py -> /home/ubuntu/Documents/RoS/robo_ws/install/robo_RL/lib/python3.10/site-packages/robo_RL
+[0.565s] byte-compiling /home/ubuntu/Documents/RoS/robo_ws/install/robo_RL/lib/python3.10/site-packages/robo_RL/wheel_pub.py to wheel_pub.cpython-310.pyc
+[0.565s] running install_data
+[0.565s] running install_egg_info
+[0.565s] removing '/home/ubuntu/Documents/RoS/robo_ws/install/robo_RL/lib/python3.10/site-packages/robo_RL-0.0.0-py3.10.egg-info' (and everything under it)
+[0.566s] Copying ../../build/robo_RL/robo_RL.egg-info to /home/ubuntu/Documents/RoS/robo_ws/install/robo_RL/lib/python3.10/site-packages/robo_RL-0.0.0-py3.10.egg-info
+[0.566s] running install_scripts
+[0.573s] Installing wheel script to /home/ubuntu/Documents/RoS/robo_ws/install/robo_RL/lib/robo_RL
+[0.573s] writing list of installed files to '/home/ubuntu/Documents/RoS/robo_ws/build/robo_RL/install.log'
+[0.585s] Invoked command in '/home/ubuntu/Documents/RoS/robo_ws/src/robo_RL' returned '0': PYTHONPATH=/home/ubuntu/Documents/RoS/robo_ws/build/robo_RL/prefix_override:/home/ubuntu/Documents/RoS/robo_ws/install/robo_RL/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robo_RL build --build-base /home/ubuntu/Documents/RoS/robo_ws/build/robo_RL/build install --record /home/ubuntu/Documents/RoS/robo_ws/build/robo_RL/install.log --single-version-externally-managed
